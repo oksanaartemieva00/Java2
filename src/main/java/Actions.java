@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Actions {
+public interface Actions {
+    void run();
+    void jump();
+    int getRunDistance();
+    int getJumpHeight();
 }
